@@ -49,7 +49,7 @@ This is the force that appears in the equations of motion for the particles. In 
 
 The equation of motion for particle $i$ at time $t$ is given by Newton's second law: 
 
-$$m \ddot{ \vec r}_i = \sum_{j} \vec F_{j \to i}$$
+$$ m \ddot{\vec r}_i = \sum_j \vec F_j.$$
 
 Where the sum runs over all particles $j \neq i$ and $\vec F_{j \to i}$ is the force exerted on particle $i$ by particle $j.$ At every step of our simulation, we need to know what is the net force felt by all particles. Let's write a function which takes in the positions of our particles at a certain time and stores the force felt by each particle. To make things simple, we'll set $m = 1$.
 
